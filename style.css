@@ -1,0 +1,144 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color:blue;
+}
+
+nav {
+  background-color: blue;
+  height: 80px;
+}
+
+.navbar-brand {
+
+}
+
+.nav1 {
+  text-decoration: none;
+  height: -2cm;
+  color: black;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 80px;
+  list-style: none;
+}
+
+li {
+  width: 180px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.FotoAbout {
+  height: 80vh;
+  width: 80vh;
+}
+
+.CONTENT-container {
+  background-color: #808080;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.CONTENT-container2 {
+  background-color: grey;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.CONTENT-container3 {
+  background-color: grey;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.a-content4 {
+  background-image: url;
+}
+
+.a-content {
+  background-color: skyblue;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 25px;
+  width: 20vh;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 30px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.a-content3 {
+  background-color: skyblue;
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  font: bold;
+  font-size: 20px;
+  width: 35vh;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.foto-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vh;
+  height: 30vh;
+  border-radius: 20px;
+}
+
+.foto-content:hover {
+  transition: 0.4s ease-in-out;
+  transition-delay: 0.3s;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.IMG-content {
+  width: 60px;
+  height: 80px;
+}
+
+.IMG-content2 {
+  width: 75%;
+  height: 75%;
+}
+
+.FOOTER-container {
+  height: 20vh;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.FOOTER {
+  font-size: 28px;
+  color: rgb(0, 0, 0);
+}

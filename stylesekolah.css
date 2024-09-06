@@ -1,0 +1,107 @@
+*,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.NAVBAR-container {
+    background-color: skyblue;
+    width: 100%;
+    height: 10vh;
+}
+
+.ul-NAVBAR {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.li-NAVBAR {
+    list-style-type: none;
+    padding: 10px;
+    margin: 3px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.li-NAVBAR:hover {
+    background-color: blue;
+    transition: .35s ease-in-out;
+    transition-delay: .3s;
+}
+
+.a-NAVBAR {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.CONTENT-container-05 {
+    background-image: url(../../.img/05.png);
+    background-repeat: no-repeat;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+
+}
+
+.CONTENT-container-tk {
+    background-image: url(../../.img/Daarulikhwan.png);
+    background-repeat: no-repeat;
+    background-size: 200vh;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.CONTENT-container-233 {
+    background-image: url(../../.img/233.png);
+    background-repeat: no-repeat;
+    background-size: 170vh;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.CONTENT-container-pp {
+    background-image: url();
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.foto-content {
+    background-color: skyblue;
+    width: 250px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+}
+
+.IMG-content {
+
+    width: 200px;
+    height: 200px;
+}
